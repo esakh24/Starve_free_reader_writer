@@ -1,5 +1,7 @@
 # Starve-Free Readers Writers Solution
 
+Submitted by - Sakshi Verma (19114074)
+
 The readers-writers problem is a classical synchronisation problem in computer science: we have a resource that can be accessed by readers, who do not modify the resource just read the contents, and writers, who can modify the resource. Thus, it is a necessity that when a writer is modifying the resource, no-one else (reader or writer) should access it at the same time: another writer could corrupt the resource, and another reader could read a partially modified value.However multiple readers can simultaneously read it.
 
 This problem has **three variants**:
